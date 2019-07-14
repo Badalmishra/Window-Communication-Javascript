@@ -1,0 +1,24 @@
+#deck{
+    width: 50%;
+    border: 5px solid steelblue;
+    background: greenyellow;
+    margin: auto;
+    box-shadow:3px 3px 10px goldenrod;
+    height: 50vh;
+    overflow-y: scroll;
+}
+button{
+    width: 100%;
+    font-size: 1.5rem;
+    color: rgb(108, 69, 141);
+    border:5px solid rgb(12, 70, 117);
+    cursor: pointer;
+}
+button.Open{
+    background: lightgreen;
+    border: 2px solid green;
+}
+button.Closed{
+    background: lightcoral;
+    border: 2px solid red;
+}
